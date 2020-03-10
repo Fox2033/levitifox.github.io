@@ -1,0 +1,98 @@
+body {
+    background-color:rgb(26, 26, 26);
+    margin: 0;
+    padding: 0;
+}
+body::-webkit-scrollbar {
+    width: 0.5em;
+}
+   
+body::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 1px rgba(255, 255, 255, 0.473);
+}
+   
+body::-webkit-scrollbar-thumb {
+    background-color: rgb(70, 70, 70);
+    border-radius: 10px;
+}
+
+.Levitifox {
+    font-size: 4em;
+    font-family: "Disciplina";
+    letter-spacing: 0.1em;
+    background-color: rgba(0, 0, 0, 0);
+    color: rgb(255, 255, 255);
+    font-family: "Disciplina";
+    letter-spacing: 0.1em;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    top: 0.5em;
+}
+.inc {
+    background-color: rgb(255, 60, 60);
+    color: white;
+    font-size: 2em;
+    font-family: "Disciplina";
+    letter-spacing: 0.1em;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 3.05em;
+    top: 0.7em;
+    -webkit-transform: skewX(-15deg); 
+	-moz-transform: skewX(-15deg); 
+	-ms-transform: skewX(-15deg); 
+	-o-transform: skewX(-15deg); 
+    transform: skewX(-15deg);
+}
+
+.name {
+    color: white;
+    font-size: 6em;
+    font-family: "Codec-Cold";
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    top: 50%;
+}
+.mouse {
+    background: rgba(255, 255, 255, 0);
+    width: 2em;
+    height: 3.5em;
+    position: absolute;
+    bottom: 5%;
+    border: 3px solid rgba(255, 255, 255, 0.46);
+    border-radius: 20px;
+    left: 50%;
+    margin-left: -1em;
+}
+.mouse_scroll {
+    background: rgba(255, 255, 255, 0.46);
+    width: 0.5em;
+    height: 1em;
+    position: absolute;
+    top: 20%;
+    border-radius: 5px;
+    left: 50%;
+    margin-left: -0.25em;
+}
+
+.slid2 {
+    background: rgba(37, 37, 37, 0);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 100%;
+}
+.fon {
+    background: rgb(255, 60, 60);
+    height: 70%;
+    width: 100%;
+    position: absolute;
+    top: 15%;
+}
